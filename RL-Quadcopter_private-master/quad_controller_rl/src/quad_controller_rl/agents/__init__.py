@@ -1,0 +1,6 @@
+from quad_controller_rl.agents.base_agent import BaseAgent
+from quad_controller_rl.agents.policy_search import RandomPolicySearch
+from quad_controller_rl.agents.ddpg_agent_takeoff import DDPGTakeoff
+from quad_controller_rl.agents.ddpg_agent_hover import DDPGHover
+from quad_controller_rl.agents.ddpg_agent_landing import DDPGLanding
+from quad_controller_rl.agents.ddpg_agent_combined import DDPGCombined
